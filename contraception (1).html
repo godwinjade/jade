@@ -1,0 +1,585 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide to contraception methods, effectiveness, and frequently asked questions. Learn about your options in a judgement-free space.">
+    <meta name="keywords" content="contraception, birth control, family planning, reproductive health, contraceptives">
+    <link rel="canonical" href="https://safechoices-contraception.great-site.net" />
+    <title>Safe Choices - Modern Contraception Guide</title>
+    <style>
+        :root {
+            --primary-pink: #FFD1DC;
+            --primary-purple: #9370DB;
+            --dark-purple: #663399;
+            --light-gray: #f8f8f8;
+            --text-color: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light-gray);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-pink), var(--primary-purple));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            font-weight: 300;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        nav {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--dark-purple);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 0;
+            position: relative;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-purple);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--primary-purple);
+            transition: width 0.3s;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        h2 {
+            color: var(--dark-purple);
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-pink);
+        }
+
+        h3 {
+            color: var(--primary-purple);
+            margin: 1.5rem 0 1rem;
+            font-size: 1.5rem;
+        }
+
+        .method-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .method-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+        }
+
+        .method-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .method-icon {
+            width: 80px;
+            height: 80px;
+            background-color: var(--primary-pink);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1.5rem;
+            color: var(--dark-purple);
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+
+        .method-info {
+            flex: 1;
+        }
+
+        .efficiency-badge {
+            background-color: var(--dark-purple);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-top: 0.5rem;
+        }
+
+        .pros-cons {
+            display: flex;
+            gap: 2rem;
+            margin: 1.5rem 0;
+        }
+
+        .pros, .cons {
+            flex: 1;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        .pros {
+            background-color: rgba(255,209,220,0.2);
+            border-left: 4px solid var(--primary-pink);
+        }
+
+        .cons {
+            background-color: rgba(147,112,219,0.1);
+            border-left: 4px solid var(--primary-purple);
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-top: 0.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .faq-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 1.5rem 2rem;
+            background-color: var(--primary-pink);
+            color: white;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-answer {
+            padding: 1.5rem 2rem;
+            display: none;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .contact-form {
+            background-color: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--dark-purple);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        textarea {
+            min-height: 150px;
+        }
+
+        button {
+            background-color: var(--primary-purple);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: var(--dark-purple);
+        }
+
+        footer {
+            background-color: var(--dark-purple);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .contact-info {
+            margin: 1rem 0;
+        }
+
+        .contact-info a {
+            color: var(--primary-pink);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                padding: 1rem;
+            }
+           
+            .nav-links {
+                margin-top: 1rem;
+                flex-direction: column;
+                gap: 0.5rem;
+                width: 100%;
+            }
+           
+            .method-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+           
+            .method-icon {
+                margin-bottom: 1rem;
+                margin-right: 0;
+            }
+           
+            .pros-cons {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Modern Contraception Guide</h1>
+            <p class="subtitle">Comprehensive information about safe and effective birth control methods to help you make informed choices about your reproductive health.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">SafeChoices</a>
+            <div class="nav-links">
+                <a href="#methods">Methods</a>
+                <a href="#effectiveness">Effectiveness</a>
+                <a href="#faqs">FAQs</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="methods">
+            <h2>Contraception Methods</h2>
+            <p>There are many safe and effective birth control options available today. Understanding the different methods can help you choose what's best for your body and lifestyle.</p>
+
+            <div class="method-card">
+                <div class="method-header">
+                    <div class="method-icon">💊</div>
+                    <div class="method-info">
+                        <h3>Birth Control Pills</h3>
+                        <div class="efficiency-badge">91-99% effective with perfect use</div>
+                    </div>
+                </div>
+                <p>Oral contraceptives contain hormones that prevent ovulation. They are taken daily at the same time for maximum effectiveness.</p>
+               
+                <div class="pros-cons">
+                    <div class="pros">
+                        <h4>Benefits</h4>
+                        <ul>
+                            <li>Highly effective when taken correctly</li>
+                            <li>Can regulate periods and reduce cramps</li>
+                            <li>Doesn't interfere with sex</li>
+                            <li>May improve acne</li>
+                        </ul>
+                    </div>
+                    <div class="cons">
+                        <h4>Considerations</h4>
+                        <ul>
+                            <li>Requires daily commitment</li>
+                            <li>May cause side effects like nausea or mood changes</li>
+                            <li>Doesn't protect against STIs</li>
+                            <li>Need a prescription</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="method-card">
+                <div class="method-header">
+                    <div class="method-icon">💉</div>
+                    <div class="method-info">
+                        <h3>Contraceptive Injection</h3>
+                        <div class="efficiency-badge">94% effective with typical use</div>
+                    </div>
+                </div>
+                <p>The contraceptive shot (Depo-Provera) is given every 3 months and contains progestin to prevent ovulation.</p>
+               
+                <div class="pros-cons">
+                    <div class="pros">
+                        <h4>Benefits</h4>
+                        <ul>
+                            <li>Only needed 4 times per year</li>
+                            <li>Highly discreet</li>
+                            <li>Doesn't require daily attention</li>
+                        </ul>
+                    </div>
+                    <div class="cons">
+                        <h4>Considerations</h4>
+                        <ul>
+                            <li>May cause irregular bleeding initially</li>
+                            <li>Possible weight gain</li>
+                            <li>Return to fertility may be delayed</li>
+                            <li>Doesn't protect against STIs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="method-card">
+                <div class="method-header">
+                    <div class="method-icon">🏥</div>
+                    <div class="method-info">
+                        <h3>IUD (Intrauterine Device)</h3>
+                        <div class="efficiency-badge">99% effective</div>
+                    </div>
+                </div>
+                <p>A small T-shaped device inserted into the uterus by a healthcare provider that provides long-term birth control (3-10 years depending on type).</p>
+               
+                <div class="pros-cons">
+                    <div class="pros">
+                        <h4>Benefits</h4>
+                        <ul>
+                            <li>Long-lasting protection</li>
+                            <li>Highly effective immediately</li>
+                            <li>No daily maintenance</li>
+                            <li>Some types may reduce menstrual bleeding</li>
+                        </ul>
+                    </div>
+                    <div class="cons">
+                        <h4>Considerations</h4>
+                        <ul>
+                            <li>Requires clinic visit for insertion/removal</li>
+                            <li>May cause cramping during insertion</li>
+                            <li>Possible irregular bleeding initially</li>
+                            <li>Doesn't protect against STIs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="method-card">
+                <div class="method-header">
+                    <div class="method-icon">🧴</div>
+                    <div class="method-info">
+                        <h3>Barrier Methods</h3>
+                        <div class="efficiency-badge">72-88% effective (condoms), 71-86% (diaphragm)</div>
+                    </div>
+                </div>
+                <p>Physical barriers that prevent sperm from reaching the egg, such as condoms, diaphragms, and cervical caps.</p>
+               
+                <div class="pros-cons">
+                    <div class="pros">
+                        <h4>Benefits</h4>
+                        <ul>
+                            <li>Condoms protect against STIs</li>
+                            <li>No hormones involved</li>
+                            <li>Immediately reversible</li>
+                            <li>Available without prescription</li>
+                        </ul>
+                    </div>
+                    <div class="cons">
+                        <h4>Considerations</h4>
+                        <ul>
+                            <li>Must be used correctly every time</li>
+                            <li>Can interrupt spontaneity</li>
+                            <li>May require advance preparation (e.g., diaphragm insertion)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="effectiveness">
+            <h2>Comparing Effectiveness</h2>
+           
+            <div class="method-card">
+                <h3>Birth Control Effectiveness Chart</h3>
+                <p>Contraceptive effectiveness is typically measured by two standards:</p>
+                <ul>
+                    <li><strong>Perfect use:</strong> How effective the method is when used exactly as directed all the time</li>
+                    <li><strong>Typical use:</strong> How effective the method is during actual use (includes human error)</li>
+                </ul>
+
+            
+            </div>
+        </section>
+
+        <section id="faqs">
+            <h2>Frequently Asked Questions</h2>
+           
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>What's the most effective birth control method?</span>
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Long-acting reversible contraceptives (LARCs) like IUDs and contraceptive implants are the most effective reversible methods, with effectiveness rates over 99%. They don't depend on user compliance once they're inserted.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Can I get pregnant if I miss one pill?</span>
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Missing one pill slightly increases your risk, especially if it's late by more than 24 hours. Always refer to your pill's specific instructions. If you miss more than one pill or are unsure, use backup contraception for 7 days and consult your healthcare provider.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>Do birth control methods affect future fertility?</span>
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Most birth control methods don't affect long-term fertility. After stopping, your body typically returns to its normal fertility level within a few months. The exception may be the contraceptive injection (Depo-Provera), which can sometimes delay the return to fertility for up to a year after stopping.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>At what age can I start using birth control?</span>
+                    <span>+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>There's no minimum age for contraceptive use. Teens can safely use hormonal birth control if they've started menstruating. Many providers recommend birth control for teens for reasons beyond pregnancy prevention, such as regulating periods or treating acne.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have more questions about contraception? Reach out to our team of reproductive health specialists.</p>
+           
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Safe Choices Contraception Guide</h3>
+            <p>Providing accurate, judgment-free information about reproductive health since 2023.</p>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:noemiangeladante13@gmail.com">noemiangeladante13@gmail.c
